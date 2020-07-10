@@ -1,0 +1,11 @@
+<div class="main-container">
+  <div class="timer-container">
+    <span class="timer">{{hours}}:{{minutes}}:{{seconds}}</span>
+  </div>
+  <div class="control-container">
+    <button class="control-btn " (click)="TimerStart()">Start/Stop</button>
+    <button class="control-btn " (dblclick)="TimerWait()">Wait</button>
+    <button class="control-btn " (click)="TimerCancel()">Reset</button>
+  </div>
+</div>
+
